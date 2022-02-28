@@ -1,4 +1,5 @@
 [
+    "^/autodiscover http://autodiscover.tamu.edu [R=302,L,NC]",
     "/t3/(.*)$ https://pef.tamu.edu/t3/$1 [R=301,L,NC]",
     "/t3/announcements/index.html https://pef.tamu.edu/t3/Announcements/index.html [R=301,L,NC]",
     "/xgrants/(.*)$ https://pef.tamu.edu/xgrants/$1 [R=301,L,NC]",
