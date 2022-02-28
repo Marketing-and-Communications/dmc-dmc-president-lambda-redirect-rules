@@ -1,6 +1,4 @@
 [
-    "^/autodiscover http://autodiscover.tamu.edu [R=302,L,NC]",
-    
     "^(.*)/$ $1/index.html [R,L]",
     "^(((?!\\.).)*)?(/\\?.*)$ $1/index.html [R,L]",
     "^(((?!\\.).)*)$ $1/index.html [R,L]"
