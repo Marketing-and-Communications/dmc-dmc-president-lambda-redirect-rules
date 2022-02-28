@@ -1,7 +1,5 @@
 [
-    "^(.*)/$ $1/index.html [R,L]",
-    "^(((?!\\.).)*)?(/\\?.*)$ $1/index.html [R,L]",
-    "^(((?!\\.).)*)$ $1/index.html [R,L]",
+    "^/autodiscover http://autodiscover.tamu.edu [R=302,L,NC]",
     "/t3/(.*)$ https://pef.tamu.edu/t3/$1 [R=301,L,NC]",
     "/t3/announcements/index.html https://pef.tamu.edu/t3/Announcements/index.html [R=301,L,NC]",
     "/xgrants/(.*)$ https://pef.tamu.edu/xgrants/$1 [R=301,L,NC]",
@@ -19,5 +17,8 @@
     "/assets/documents/Pres_ORG_Chart_2021-updated.pdf https://president.tamu.edu [R=302,L,NC]",
     "/path-forward/working-groups/index.html https://pathforward.tamu.edu/working-groups/index.html [R=301,L,NC]",
     "/path-forward/sic/index.html https://pathforward.tamu.edu/sic/index.html [R=301,L,NC]"
-    
+
+    "^(.*)/$ $1/index.html [R,L]",
+    "^(((?!\\.).)*)?(/\\?.*)$ $1/index.html [R,L]",
+    "^(((?!\\.).)*)$ $1/index.html [R,L]"
 ]
