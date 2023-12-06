@@ -18,6 +18,7 @@
     "/path-forward/working-groups/index.html https://pathforward.tamu.edu/working-groups/index.html [R=301,L,NC]",
     "/path-forward/sic/index.html https://pathforward.tamu.edu/sic/index.html [R=301,L,NC]",
     "/path-forward/quick-look-assessment.html /path-forward/quick-look-assessment/index.html [R=301,L,NC]",
+    "/initiatives/index.html https://president.tamu.edu [R=301,L,NC]",
     "^//.* /index.html [R,L]",
     "^(.*)/$ $1/index.html [R,L]",
     "^(((?!\\.).)*)?(/\\?.*)$ $1/index.html [R,L]",
